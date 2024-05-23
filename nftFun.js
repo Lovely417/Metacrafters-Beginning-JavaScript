@@ -23,6 +23,7 @@ function mintNFT (name, eyeColor, shirtType, bling) {
     }
     visitorsNFT.push(myNFT);
     console.log("Minted: "+ name);
+    console.log( );
 
 }
 
@@ -30,7 +31,12 @@ function mintNFT (name, eyeColor, shirtType, bling) {
 // and print their metadata with console.log()
 function listNFTs () {
     for( let i = 0; i< visitorsNFT.length; i++){
-        console.log(visitorsNFT[i]);
+        console.log("ID : " + (i+1));
+        console.log("NAME : " + visitorsNFT[i].Name);
+        console.log("EYE COLOR : " + visitorsNFT[i].EyeColor);
+        console.log("SHIRT TYPE : " + visitorsNFT[i].ShirtType);
+        console.log("BLING : " + visitorsNFT[i].Bling);
+        console.log( );
     }
 
 }
