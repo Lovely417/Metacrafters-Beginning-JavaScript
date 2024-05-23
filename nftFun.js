@@ -37,9 +37,16 @@ function listNFTs () {
 
 // print the total number of NFTs we have minted to the console
 function getTotalSupply() {
+    console.log("Total Number of Visitors are :- ");
     console.log(visitorsNFT.length);
 }
 
 // call your functions below this line
+mintNFT("Rohan","Black","Jacket","Silver Bracelet");
+mintNFT("Ayaana","Brown","Tank Top","Diamond Ring");
+mintNFT("Eshana","Grey","Blouse","Pearl Necklace");
+listNFTs();
+getTotalSupply();
+
 
 
